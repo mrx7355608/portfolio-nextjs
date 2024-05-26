@@ -1,6 +1,7 @@
+import { Box } from "@chakra-ui/react";
 import About from "@/components/About";
 import Hero from "@/components/Hero";
-import { Box } from "@chakra-ui/react";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Box w={"80%"} mx={"auto"}>
         <About />
+        <Skills />
       </Box>
     </main>
   );

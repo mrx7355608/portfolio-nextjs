@@ -1,5 +1,4 @@
 import { Text, Box, Heading, HStack } from "@chakra-ui/react";
-import Image from "next/image";
 import { Jockey_One } from "next/font/google";
 
 const jockeyOne = Jockey_One({ weight: ["400"], subsets: ["latin"] });
