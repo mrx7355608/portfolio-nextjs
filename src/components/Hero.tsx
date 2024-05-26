@@ -1,29 +1,27 @@
 "use client";
-import { HStack, VStack } from "@chakra-ui/react";
-import HeroButtons from "./HeroButtons";
+import { HStack } from "@chakra-ui/react";
 import HeroContent from "./HeroContent";
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <HStack
+      alignItems={"center"}
+      minH={"100vh"}
       justifyContent={"space-between"}
-      w={"full"}
       color={"white"}
-      height={"100vh"}
-      px={"48"}
+      bg={"url('/bg.png')"}
+      bgBlendMode={"darken"}
+      bgColor={"rgba(0,0,0,0.4)"}
+      px={52}
     >
-      <VStack alignItems={"start"} w="50%">
-        <HeroContent />
-        <HeroButtons />
-      </VStack>
+      <HeroContent />
       <Image
-        src={"/user.jpeg"}
+        src={"/user.jpg"}
         alt=""
-        width={400}
-        height={400}
-        objectFit="cover"
-        style={{ borderRadius: "999px" }}
+        width={240}
+        height={240}
+        style={{ borderRadius: "8px" }}
       />
     </HStack>
   );
