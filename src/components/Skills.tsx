@@ -78,8 +78,8 @@ function SkillItem({
               py={3}
               px={5}
               w={"full"}
-              bg={"gray.900"}
-              rounded={"lg"}
+              bg={"#0b0c10"}
+              rounded={"md"}
             >
               <Image
                 src={`/icons/${skill.toLowerCase()}.png`}
