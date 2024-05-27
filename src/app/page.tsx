@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import About from "@/components/About";
-import Hero from "@/components/Hero";
+import Hero from "@/components/Hero/Hero";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 
