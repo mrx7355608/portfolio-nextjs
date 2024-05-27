@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Hero from "@/components/Hero/Hero";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
+import Projects from "@/components/ProjectSection/Projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Box w={"80%"} mx={"auto"}>
         <About />
         <Skills />
+        <Projects/>
       </Box>
       <Footer />
     </main>
